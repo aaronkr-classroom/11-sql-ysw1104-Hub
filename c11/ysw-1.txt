@@ -1,0 +1,5 @@
+SELECT title
+FROM article
+WHERE (summary LIKE '%health%' OR 
+      content LIKE '%health%'
+);
